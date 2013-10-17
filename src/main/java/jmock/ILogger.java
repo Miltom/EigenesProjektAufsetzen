@@ -2,6 +2,6 @@ package jmock;
 
 public interface ILogger {
 	
-	public void checkLogData(String string, String string2);
+	public void checkLogData(String name, String pw);
 	
 }
