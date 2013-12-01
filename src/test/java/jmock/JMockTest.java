@@ -14,7 +14,7 @@ public class JMockTest {
 	@Before
 	public void init() {
 		mock = new JUnit4Mockery();
-		instance = new Facebook();
+		instance = new FacebookImitation();
 	}
 
 	@Test
